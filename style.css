@@ -8,10 +8,10 @@
  }
 
  body{
-    background-color: #8A51FC ;
+    background-color: #000000;
  }
  .logo{
-    width: 300px;
+    width: 589px;
     display: block;
     margin: 20px auto;
  }
@@ -21,6 +21,8 @@
     border-radius: 20px;
     margin: 0 auto 40px;
     padding: 44px 24px 23px ;
+    box-shadow: 0 0 40px #aa36ee;;
+    transition: all 0.2s ease-in-out;
  }
 
  label{
@@ -60,6 +62,8 @@
 
  button:hover{
     opacity: 0.8;
+    box-shadow: 0 0 15px #772fd3;;
+    transition: all 0.2s ease-in-out;
  }
 
  button:active{
@@ -69,12 +73,16 @@
  .real{
     width: 44px;
     height: 44px;
-
+    border-radius: 53px;
+    box-shadow: 0 0 15px #aa36ee;;
+    
  }
 
  .dolar{
     width: 44px;
     height: 44px;
+    border-radius: 53px;
+    box-shadow: 0 0 15px #aa36ee;
  }
  
  section{
@@ -88,7 +96,9 @@
     align-items: center;
  }
  .arrow-img{
-    margin: 15px 0;
+   margin: 15px 0;
+
+    
  }
 
  .currency-box{
